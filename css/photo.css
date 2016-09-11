@@ -1,0 +1,54 @@
+/*-------------修改头部的宽度---------------------------*/
+#warp1{
+	 
+	  height:300px;
+	  
+}
+/*---------------网页主体内容----------------------*/
+#warp2{
+	  width:100%;
+	  background:#eaeaea;
+	  clear:both;
+	  
+}
+
+#warp2 .content{
+
+	   background:#eaeaea;
+	   width:1144px;
+	   _height:200px;
+	   min-height:200px;
+	   margin:0 auto;
+	   overflow:hidden;
+	   padding-bottom:86px;
+	  
+}
+
+#warp2 .content h1{
+	   width:400px;
+	   margin:80px auto 60px;
+	   font-size:50px;
+	   text-align:center;
+	   color:#aa381e;
+}
+
+
+
+#warp2 .content .container{
+    -webkit-column-width:160px;
+    -moz-column-width:160px; 
+	  -webkit-column-gap:5px;
+	  -moz-column-gap:5px;
+	 width:1144px;
+	 min-height:300px;
+	 _height:300px;
+	 margin:0 auto;
+}
+#warp2 .content .container div img{
+	   border-radius:0;
+}
+
+/*数据块 砖块*/
+
+#warp2 .content .container div{width:160px;
+               margin:4px 0;}

@@ -1,0 +1,161 @@
+/*-------------修改头部的宽度---------------------------*/
+#warp1{
+	 
+	  height:300px;
+	  
+}
+
+/*---------------网页主体内容----------------------*/
+#warp2{
+	  width:100%;
+	  background:#eaeaea;
+	  clear:both;
+	  
+}
+
+#warp2 .content{
+
+	   background:#eaeaea;
+	   width:1144px;
+	   _height:200px;
+	   min-height:200px;
+	   margin:0 auto;
+	   overflow:hidden;
+	   padding-bottom:86px;
+	  
+}
+
+#warp2 .content h1{
+	   width:400px;
+	   margin:80px auto 60px;
+	   font-size:50px;
+	   text-align:center;
+	   color:#aa381e;
+}
+
+#warp2 .content dl{
+	   float:left;
+	   margin-right:52px;
+	   margin-bottom:20px;
+	   text-align:center;
+}
+
+#warp2 .content dl dd a{
+        font-size:18px;
+        line-height:32px;
+        color:#b14a35;
+        font-weight:bold;
+
+}
+#warp2 .content dl dd{
+		font-size:18px;
+        line-height:32px;
+        color:#f00;
+}
+
+#warp2 .content .menu{
+	    width:960px;
+	    height:309px;
+	    padding:0 84px 30px 100px;
+}
+
+#warp2 .content .menu img{
+	   float:left;
+	   margin-right:120px;
+}
+
+#warp2 .content .menu p{
+		color:#190608;
+		font-size:20px;
+		line-height:;
+		font-weight:bold;
+}
+
+#warp2 .content .menu ul{
+
+}
+
+#warp2 .content .menu ul li{
+	     color:#a6bfdf;
+	     /*font-weight:400;*/
+	     font-size:14px;
+	     line-height:28px;
+	     margin:5px;
+}
+
+#warp2 .content .menu .i1{
+	   width:196px;
+	   height:46px;
+	   border:none;
+	   background:url(../img/menu2.png);
+	   cursor:pointer;
+	    color:#f0f0f0;
+	    margin-top:30px;
+
+}
+#warp2 .content .menu .li:hover{
+	   color:#fff;
+}
+
+
+
+/*---------------网页图片文字滑动显示---------------------*/
+
+#warp2 .content dl .xianshi{
+	   width:240px;
+	   height:240px;
+	   position:relative;
+	   overflow:hidden;
+}
+#warp2 .content dl .xianshi .xianshi1{
+	   width:240px;
+	   height:240px;
+	   position:absolute;
+	   top:180px;
+	   left:0;
+	   background:#111516;
+	   filter:alpha(opacity=40);
+	   opacity:0.4;
+	   cursor:pointer;
+	   color:#fff;
+	   text-align:center;
+
+}
+
+#warp2 .content dl .xianshi .xianshi1 h3{
+	   font-size:20px;
+}
+
+#warp2 .content dl .xianshi .xianshi1 p{
+	   line-height:32px;
+	   font-size:16px;
+	   color:#e69b61;
+}
+
+
+/*---------------画册---------------------*/
+#warp2 .content .gallery{
+
+	  width:1144px;
+	  height:374px;
+	  margin:0 auto;
+	  overflow:hidden;
+}
+
+#warp2 .content .gallery .a1{
+	   /*border-radius:0;*/
+	   margin:0;
+	   padding:0;
+	   width:50px;
+	   height:374px;
+	   float:left;
+	   display:block;
+	   /*margin-left:-10px;*/
+
+}
+
+#warp2 .content .gallery .a2{
+	   width:944px;
+}
+
+

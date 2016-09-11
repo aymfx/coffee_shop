@@ -1,0 +1,160 @@
+/*此页面为公共样式*/
+
+html,body,ul,li,ol,dl,dt,dd{
+		margin:0;
+		padding:0;
+}
+html,body{
+		width:100%;
+		height:100%;
+		font-size:12px;
+		color:#bfa79a;
+		font-family:"宋体";
+}
+ul,ol{
+		list-style:none;
+
+}
+a{
+		text-decoration:none;
+}
+a:hover{
+	  	color:#aa381e;
+	  	cursor:pointer;
+}
+img{    border:none;
+		border-radius:10px;
+		cursor:pointer;
+}
+input{
+	  cursor:pointer;
+	  
+}
+/*---------------top------------------------*/
+/*---------这是首页的样式-	-----------------*/
+#warp1{
+		width:100%;
+		height:862px;
+	  	background:url(../img/bg.jpg);
+	  	float:left;
+}
+
+#warp1 .top1{
+		width:1144px;	  
+		min-height:220px;
+		_height:220px;
+		margin:50px auto 60px;
+}
+
+#warp1 .top1 h1{
+		font-size:46px;
+		margin:0px auto 32px;
+		width:200px;
+		text-align:center;
+		color:#fff;
+
+}
+
+#warp1 .top1 .nav1{
+		height:50px;
+		width:1144px;
+		position:relative;
+		margin-bottom:26px;
+		/*background:#f00;*/
+}
+
+#warp1 .top1 .nav1 ul{
+		padding-top:16px;
+
+}
+#warp1 .top1 .nav1 ul li a,#warp1 .top1 .nav1 ul li span{
+		color:#63787a;
+}
+#warp1 .top1 .nav1 .ull{
+     	float:left;
+}
+#warp1 .top1 .nav1 .ull li{
+      	float:left;
+}
+#warp1 .top1 .nav1 .ulr{
+		float:right;
+}
+
+#warp1 .top1 .nav1 .ulr li{
+      	float:left;
+}
+
+#warp1 .top1 .nav1 .ull li span,#warp1 .top1 .nav1 .ulr li span{
+		padding:0 10px;
+}
+
+#warp1 .top1 .nav1 .nav1_center{
+		width:320px;
+		height:34px;
+		padding-top:16px;
+		/*float:left;*/
+		margin-left:412px;
+		font-size:18px;
+		background:#cb4324;
+		text-align:center;
+		border-radius:20px;
+		position:absolute;
+}
+
+#warp1 .top1 .nav1 .nav1_center img{
+		vertical-align:middle;
+}
+
+#warp1 .top1 .nav2{
+		width:1094px;
+		height:64px;
+		padding-left:34px;
+		padding-right:16px;
+		background:#35a22c;
+		border-radius:10px;
+}
+
+#warp1 .top1 .nav2 ul{
+		float:left;
+		width:700px;
+		height:64px;
+}
+#warp1 .top1 .nav2 ul li{
+		float:left;
+		font-size:16px;
+		color:#fff;
+		text-align:center;
+		line-height:64px;
+}
+#warp1 .top1 .nav2 ul li span{
+		padding:0px 26px 0px;
+}
+
+#warp1 .top1 .nav2 .i1{
+		border:none;
+		float:right;
+		margin-top:14px;
+		width:240px;
+		height:36px;
+		padding-left:16px;
+		color:#a9a7a7;
+		border-radius:10px;
+		background:#f6f6f6 url(../img/search.gif) no-repeat 214px center;
+}
+
+
+
+/*--------------footer-------------------------*/
+#warp3{
+		width:100%;
+		height:60px;
+		background:#aa2102;
+		clear:both;
+}
+#warp3 p{
+		width:300px;
+		margin:0 auto;
+		font-size:16px;
+		padding-top:22px;
+		color:#fcffff;
+}

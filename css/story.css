@@ -1,0 +1,76 @@
+
+/*-------------修改头部的宽度---------------------------*/
+#warp1{
+	 
+	  height:300px;
+	  
+}
+
+/*---------------网页主体内容----------------------*/
+#warp2{
+	  width:100%;
+	  background:#eaeaea;
+	  clear:both;
+	  
+}
+#warp2 .content{
+
+	   background:#eaeaea;
+	   width:1144px;
+	   _height:200px;
+	   min-height:200px;
+	   margin:0 auto;
+	   overflow:hidden;
+	  
+}
+
+#warp2 .content h1{
+	   width:400px;
+	   margin:80px auto 60px;
+	   font-size:50px;
+	   text-align:center;
+	   color:#aa381e;
+}
+
+#warp2 .content .dl1{
+	   width:300px;
+	   padding:20px 20px 20px;
+	   min-height:400px;
+	   float:left;
+	   margin-right:54px;
+	   background:#ffffff;
+	   margin-bottom:80px;
+	   border-radius:5px;
+	   transform:translate3d(0,-2px,0);
+	   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	   
+}
+#warp2 .content .dl2{
+	   margin-right:0px;
+}
+
+#warp2 .content .dl1 dd a{
+	   font-size:20px;
+	   color:#000104;
+	   text-indent:1em;
+	   line-height:40px;
+}
+
+#warp2 .content .dl1 dd{
+	   line-height:24px;
+	   font-size:12px;
+	   
+}
+#warp2 .content .dl1 dd p{
+	text-indent:2em;
+}
+#warp2 .content .dl3{
+	   width:225px;
+	   margin-right:20px;
+	   min-height:200px;
+	   text-align:center;
+	   background:#e6cfcf;
+	   
+}
+
+

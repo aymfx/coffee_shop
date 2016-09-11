@@ -1,0 +1,94 @@
+
+/*-------------修改头部的宽度---------------------------*/
+#warp1{
+	 
+	  height:300px;
+	  
+}
+
+/*---------------网页主体内容----------------------*/
+#warp2{
+	  width:100%;
+	  background:#eaeaea;
+	  clear:both;
+	  
+}
+#warp2 .content{
+
+	   background:#eaeaea;
+	   width:1144px;
+	   _height:200px;
+	   min-height:200px;
+	   margin:0 auto;
+	   overflow:hidden;
+	  
+}
+
+#warp2 .content h1{
+	   width:400px;
+	   margin:80px auto 60px;
+	   font-size:50px;
+	   text-align:center;
+	   color:#aa381e;
+}
+
+#warp2 .content .content_left{
+	    float:left;
+	    width:810px;
+	    /*兼容ie6*/
+	    _height:200px;
+	  	min-height:200px;
+}
+#warp2 .content .content_left label{
+	    font-size:15px;
+	    margin-bottom:20px;
+	    color:#4a5c6a;
+
+}
+#warp2 .content .content_left input{
+	    border:1px solid #d1d1d1;
+	    width:800px;
+	    height:48px;
+	    border-radius:8px;
+	    margin-bottom:20px;
+	    background:#eaeaea;
+}
+
+#warp2 .content .content_left .i1{
+	    border:1px solid #d1d1d1;
+	    width:96px;
+	    height:48px;
+	    border-radius:8px;
+	    margin-bottom:20px;
+	    background:#35a22c;
+	    color:#fff;
+}
+#warp2 .content .content_left textarea{
+	    width:800px;
+	    height:150px;
+	    margin-bottom:20px;
+	    background:#eaeaea;
+
+
+}
+#warp2 .content .content_right{
+	   float:right;
+	   width:300px;
+	   _height:200px;
+	   min-height:200px;
+	    /*background:#00ffff;*/
+}
+
+#warp2 .content .content_right  h3{
+        color:#aa3c29;
+	    width:300px;	   
+	    font-size:20px;
+	    line-height:40px;
+	    text-align:center;
+}
+
+#warp2 .content .content_right p{
+	    color:#333333;
+	    font-size:14px;
+	    line-height:28px;
+}
